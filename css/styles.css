@@ -84,7 +84,6 @@ h2.title {
 	font-size: 32px;
 	line-height: 40px;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 h2.title:after {
@@ -763,7 +762,6 @@ section .image {
 
 .description_section h2.title {
 	padding: 0 30px;
-	text-align: center;
 }
 
 .description_section p {
@@ -1015,7 +1013,6 @@ section .image {
 
 .benefits_section h2.title {
 	padding: 0 30px;
-	text-align: center;
 }
 
 .benefits_list1 {
