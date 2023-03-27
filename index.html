@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <a href="https://vk.com/im?sel=-182970495" class="button" >Оформить заказ</a>
+            <a href="#order_form" class="button" >Оформить заказ</a>
             <div class="products_count">Осталось <b>11</b> упаковок по акции</div>
         </header>
         <section class="benefits_section dark_theme">
@@ -149,7 +149,7 @@
                     </div>
                 </div>
             </div>
-            <a href="https://vk.com/im?sel=-182970495" class="button">Оформить заказ</a>
+            <a href="#order_form" class="button">Оформить заказ</a>
         </section>
         <section class="info_section">
             <h2 class="title"><span>СРЕДСТВО №1</span> ПРОТИВ ТАРАКАНОВ И ГРЫЗУНОВ!</h2>
@@ -168,7 +168,7 @@
                     <p>Эффект виден через 3 часа</p>
                 </div>
             </div>
-            <h3><span>Безопасен</span><br>Прост в использовании Эффект виден через <span>3&nbsp;часа</span></h3>
+            <h3><span>УНИВЕРСАЛЕН</span> ПРОТИВ ВРЕДИТЕЛЕЙ!</h3>
             <img class="image" src="img/info__image2-2.jpg" alt="патрон">
         </section>
         <section class="vote_section gray_theme">
@@ -284,8 +284,8 @@
                     <p>Безопасен для людей и животных</p>
                 </div>
                 <div class="benefit_item">
-                    <img src="img/offer3__benefit2_image.jpg" alt="патрон">
-                    <p>Работает<br>от сети</p>
+                    <img src="img/offer3__benefit2_image-3.jpg" alt="патрон">
+                    <p>Прост в использовании</p>
                 </div>
                 <div class="benefit_item">
                     <img src="img/offer3__benefit3_image.jpg" alt="патрон">
@@ -310,13 +310,15 @@
                 </div>
             </div>
             <form id="order_form" class="main-order-form order_form orderformcdn" action="/success/" method="post">
-                <select name="country" class="countryselect field">
+                <select name="country" class="countryselect field" style="display: none;">
                     <option selected value='RU'>Россия</option>
                     <option value='UA'>Украина</option>
                     <option value='KZ'>Казахстан</option>
                 </select>
-                <input type="text" name="name" class="field" placeholder="Ваше Имя" value="">
-                <input type="text" name="phone" class="field" placeholder="Ваш телефон" value="">
+                <input type="text" name="name" class="field" placeholder="Город" value="">
+                    <input type="text" name="name" class="field" placeholder="Площадь кв. м" value="">
+                <!-- <input type="text" name="name" class="field" placeholder="Ваше Имя" value=""> -->
+                <!-- <input type="text" name="phone" class="field" placeholder="Ваш телефон" value=""> -->
                 <input type="hidden" name="productsum" class="productsum" value="1 руб." />
                 <input type="hidden" name="delivery" value="0 руб." />
                 <input type="hidden" name="totalsum" class="productsum" value="1 руб." />
@@ -382,9 +384,9 @@
     <div id="m1-form" class="m1modal">
         <a class="close-m1"></a>
         <div>
-            <div class="popup-m1-title">Добрый день. Какая площадь вашего жилого помещения?</div>
+            <div class="popup-m1-title">Вам понравилось это предложение?</div>
             <div class="popup-m1-cont">
-                <div class="popup-m1-text1">Мы расскажем Вам все об этом товаре, предложим наилучшие условия и ознакомим с подходящими акционными предложениями!</div>
+                <div class="popup-m1-text1">Добрый день. Какая площадь вашего жилого помещения?</div>
                 <form method="post" action="/success/" class="main-order-form popup-m1-form orderformcdn">
                     <!-- <select style="width: 90%;
     height: 64px;
@@ -400,8 +402,8 @@
                         <option value='UA'>Украина</option>
                         <option value='KZ'>Казахстан</option>
                     </select> -->
-                    <input type="text" name="name" class="field" placeholder="площадь кв. м" value="">
-                    <input type="text" name="name" class="field" placeholder="город" value="">
+                    <input type="text" name="name" class="field" placeholder="Город" value="">
+                    <input type="text" name="name" class="field" placeholder="Площадь кв. м" value="">
                     <!-- <input type="text" name="phone" class="field" placeholder="Ваш телефон" value=""> -->
                     <input type="hidden" name="productsum" class="productsum" value="1 руб." />
                     <input type="hidden" name="delivery" value="0 руб." />
